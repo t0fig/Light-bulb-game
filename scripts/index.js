@@ -76,7 +76,7 @@ function updateTable(state) {
                         if (val.wrong) {
                             cell.className = "cell illuminated wrong"
                         }
-                        cell.innerHTML = `<img src="../images/lamp.png" width="${80}%" height="${80}%" alt="">`
+                        cell.innerHTML = `<img src="/images/lamp.png" width="${80}%" height="${80}%" alt="">`
                     }
                 } else {
                     cell.className = "cell"
