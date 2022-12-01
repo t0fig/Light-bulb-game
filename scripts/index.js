@@ -40,7 +40,7 @@ function generateTable(state) {
                     td.className = "cell illuminated"
                     if (cell.lamp) {
                         td.className = "cell illuminated"
-                        td.innerHTML = `<img src="../images/lamp.png" width="${80}%" height="${80}%" alt="">`
+                        td.innerHTML = `<img src="/images/lamp.png" width="${80}%" height="${80}%" alt="">`
                     }
                 } else {
                     td.className = "cell"
@@ -190,8 +190,8 @@ function startGame(e) {
         document.querySelector("#player_name").innerHTML = `player: ${playerName}`
         let timer = document.querySelector("#passed_time")
         setInterval(() => {
-            timer.innerHTML = `${Math.floor((new Date() - startTime) / 1000)} secs`
-        }, 1000)
+            timer.innerHTML = `${((new Date() - startTime) / 1000).toFixed(2)} secs`
+        }, 100)
         homePage.style.display = "none"
         game.style.display = "flex"
         if (e.target.matches("#easy")) {
