@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+    color: white;
+    font-size: 40px;
+    background-color: rgb(0, 0, 70);
+    display: flex;
+    justify-content: center;
+    min-height: 10vh;
+}
+
+#data {
+    display: flex;
+    width: 90vw;
+    justify-content: space-evenly;
+}
+
+.game {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+#player_name {
+    width: 15vw;
+
+}
+
+#passed_time {
+    width: 10vw;
+}
+
+table {
+    border: 5px solid rgb(0, 50, 50);
+}
+
+.table_box {
+    margin: 30px;
+    border-width: thick;
+    border-color: greenyellow;
+}
+
+.table_outer {
+    margin-bottom: 20px;
+    margin-top: 40px;
+    background-color: rgb(0, 0, 50);
+}
+
+button {
+    background-color: #228045;
+    border-radius: 100px;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset, rgba(44, 187, 99, .15) 0 1px 2px, rgba(44, 187, 99, .15) 0 2px 4px, rgba(44, 187, 99, .15) 0 4px 8px, rgba(44, 187, 99, .15) 0 8px 16px, rgba(44, 187, 99, .15) 0 16px 32px;
+    color: #74c374;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roboto, CerebriSans-Regular, -apple-system, system-ui, sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 24px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+button:hover, button:hover {
+    box-shadow: rgba(44, 187, 99, .35) 0 -25px 18px -14px inset, rgba(44, 187, 99, .25) 0 1px 2px, rgba(44, 187, 99, .25) 0 2px 4px, rgba(44, 187, 99, .25) 0 4px 8px, rgba(44, 187, 99, .25) 0 8px 16px, rgba(44, 187, 99, .25) 0 16px 32px;
+    transform: scale(1.5);
+}
+
+.cell {
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 2.5vw;
+    text-align: center;
+    width: 3.5vw;
+    height: 3.5vw;
+    background-color: azure;
+    border: #228045 1px solid;
+}
+
+.cell.illuminated {
+    background-color: greenyellow;
+}
+
+.cell.illuminated.wrong {
+    background-color: indianred;
+}
+
+.cell.black {
+    background-color: rgb(0, 50, 50);
+}
+
+.cell.black.correct {
+    color: limegreen;
+}
+
+#menu {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 10% 0 10%;
+    border: 5px solid greenyellow;
+    padding: 30px;
+}
+
+#player {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 30%;
+    margin-left: 20px;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+#difficulty {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+
+}
+
+#difficulty > button {
+    box-sizing: border-box;
+    font-size: inherit;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.result {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#winLost {
+    font-size: 20vh;
+}
+
+#score {
+    font-size: 10vh;
+}
+
+#restart {
+    font-size: 5vh;
+    margin-top: 10vh;
+}
+
+#scores_table {
+    width: 50vw;
+}
+
+#scores_table > table {
+    border-collapse: collapse;
+}
+
+#scores_table > tr {
+    background-color: darkslateblue;
+}
+
+#scores_table > th,
+#scores_table > td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+#scores_table > tr:hover {
+    background-color: greenyellow;
+}
+
+#scores_div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+}
+
+#homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#clear_records {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
