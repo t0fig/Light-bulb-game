@@ -1,4 +1,4 @@
-# Light-bulb-placement-game
+# Light bulb placement game
 
 Once upon a time, King Unnamed of Nowhereland was both smiling and crying at the same time. He was smiling because his
 enormous brand-new palace with many spacious rooms and corridors has just been finished. He is also crying as these
