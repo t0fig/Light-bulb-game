@@ -6,7 +6,7 @@ rooms need to be illuminated and kept warm, but the ongoing increase of utility 
 time to think about the placement of the palace's light bulbs. We need to place them so that everything is properly lit,
 but we cannot install any unnecessary bulbs.
 
-# Game description
+# Game rules
 
 * The king's palace has rooms with square shaped floors that consist of black and white tiles only.
 * Light bulbs can only be placed above white tiles.
